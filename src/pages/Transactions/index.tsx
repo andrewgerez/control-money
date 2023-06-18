@@ -1,13 +1,13 @@
 import * as S from './styles'
-import { Header } from "../../components/Header"
-import { Summary } from "../../components/Summary"
+import { Header } from '../../components/Header'
+import { Summary } from '../../components/Summary'
 import { SearchForm } from './SearchForm'
 import { useContext } from 'react'
 import { TransactionsContext } from '../../contexts/TransactionsContext'
 import { dateFormatter, priceFormatter } from '../../utils/formatter'
 
 export const Transactions = () => {
-  const { transactions } = useContext(TransactionsContext);
+  const { transactions } = useContext(TransactionsContext)
 
   return (
     <div>
@@ -19,7 +19,7 @@ export const Transactions = () => {
 
         <S.TransactionsTable>
           <tbody>
-            {transactions.map(transaction => (
+            {transactions.map((transaction) => (
               <tr key={transaction.id}>
                 <td width="50%">{transaction.description}</td>
                 <td>

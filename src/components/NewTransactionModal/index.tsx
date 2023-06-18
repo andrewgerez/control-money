@@ -24,13 +24,13 @@ export const NewTransactionModal = () => {
     formState: { isSubmitting },
     reset,
   } = useForm<NewTransactionFormInputs>({
-    resolver: zodResolver(newTransactionFormSchema)
+    resolver: zodResolver(newTransactionFormSchema),
   })
 
   const { createTransaction } = useContext(TransactionsContext)
 
   const handleCreateNewTransaction = async (data: NewTransactionFormInputs) => {
-    const { description, price, category, type } = data;
+    const { description, price, category, type } = data
 
     await createTransaction({
       description,
@@ -39,7 +39,7 @@ export const NewTransactionModal = () => {
       type,
     })
 
-    reset();
+    reset()
   }
 
   return (
@@ -78,7 +78,10 @@ export const NewTransactionModal = () => {
             name="type"
             render={({ field }) => {
               return (
-                <S.TransactionType onValueChange={field.onChange} value={field.value}>
+                <S.TransactionType
+                  onValueChange={field.onChange}
+                  value={field.value}
+                >
                   <S.TransactionTypeButton variant="income" value="income">
                     <ArrowCircleUp size={24} />
                     Entrada
@@ -97,7 +100,6 @@ export const NewTransactionModal = () => {
             Cadastrar
           </button>
         </form>
-
       </S.Content>
     </Dialog.Portal>
   )

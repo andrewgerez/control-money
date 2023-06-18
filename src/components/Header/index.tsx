@@ -8,7 +8,7 @@ export const Header = () => {
     <S.HeaderContainer>
       <S.HeaderContent>
         <img src={LogoImage} alt="" />
-        
+
         <Dialog.Root>
           <Dialog.Trigger asChild>
             <S.NewTransactionButton>Nova transação</S.NewTransactionButton>
@@ -16,7 +16,6 @@ export const Header = () => {
 
           <NewTransactionModal />
         </Dialog.Root>
-
       </S.HeaderContent>
     </S.HeaderContainer>
   )
