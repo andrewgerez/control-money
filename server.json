@@ -1,12 +1,12 @@
 {
-  "transactions" : [
+  "transactions": [
     {
       "id": 1,
       "description": "Desenvolvimento de site",
       "type": "income",
       "category": "Venda",
       "price": 14000,
-      "createdAt": "2023-07-17T22:24:10.505Z"
+      "createdAt": "2023-06-17T23:24:10.505Z"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 40,
-      "createdAt": "2023-07-17T22:28:10.505Z"
+      "createdAt": "2023-06-17T22:28:10.505Z"
     },
     {
       "id": 3,
@@ -22,7 +22,31 @@
       "type": "outcome",
       "category": "Autodesenvolvimento",
       "price": 2000,
-      "createdAt": "2023-07-17T23:01:10.505Z"
+      "createdAt": "2023-06-17T23:01:10.505Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 11000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-06-18T17:15:57.719Z",
+      "id": 4
+    },
+    {
+      "description": "Starbucks",
+      "price": 14,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-06-18T17:21:34.435Z",
+      "id": 5
+    },
+    {
+      "description": "Tênis Air Force 1",
+      "price": 699,
+      "category": "Pessoal",
+      "type": "outcome",
+      "createdAt": "2023-06-18T17:31:05.916Z",
+      "id": 6
     }
   ]
 }
