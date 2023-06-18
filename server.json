@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "description": "Hamburguer",
+      "description": "Restaurante Japonês",
       "type": "outcome",
       "category": "Alimentação",
       "price": 40,
@@ -20,12 +20,12 @@
       "id": 3,
       "description": "Ignite RocketSeat",
       "type": "outcome",
-      "category": "Autodesenvolvimento",
+      "category": "Educação",
       "price": 2000,
       "createdAt": "2023-06-17T23:01:10.505Z"
     },
     {
-      "description": "Desenvolvimento de App",
+      "description": "Desenvolvimento de app",
       "price": 11000,
       "category": "Venda",
       "type": "income",
