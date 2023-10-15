@@ -6,7 +6,7 @@
   <h3 align="center">Control Money 💸</h3>
 
   <p align="center">
-    A practical application to facilitate the management of expenses. 💸
+    A practical application to facilitate the management of expenses.
   </p>
 </div>
 
