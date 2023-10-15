@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://pomodoro-timer-kyoiie63a-drewdevelopment.vercel.app/">
+  <a href="https://control-money-lyart.vercel.app/">
     <img src="src/assets/controlmoney-main.png" alt="Logo">
   </a>
 
